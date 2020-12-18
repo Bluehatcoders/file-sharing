@@ -91,7 +91,7 @@ const uploadFile = () => {
         }
     }
 
-    xhr.open('POST', 'https://share-my-file.herokuapp.com/api/files')
+    xhr.open('POST', 'https://cors-anywhere.herokuapp.com/https://share-my-file.herokuapp.com/api/files')
     xhr.send(formData);
 
 }
